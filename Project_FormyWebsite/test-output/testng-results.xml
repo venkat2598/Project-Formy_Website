@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T19:01:44 IST" name="Formy Test Suite" finished-at="2024-02-12T19:02:53 IST" duration-ms="69193">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T19:01:44 IST" name="Buttons Test" finished-at="2024-02-12T19:01:57 IST" duration-ms="12732">
+      <class name="testcases.Buttons_Interact">
+        <test-method signature="ButtonsLink()[pri:0, instance:testcases.Buttons_Interact@32eff876]" started-at="2024-02-12T19:01:45 IST" name="ButtonsLink" finished-at="2024-02-12T19:01:48 IST" duration-ms="3466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonsLink -->
+        <test-method signature="Buttons()[pri:0, instance:testcases.Buttons_Interact@32eff876]" started-at="2024-02-12T19:01:49 IST" name="Buttons" finished-at="2024-02-12T19:01:53 IST" depends-on-methods="testcases.Buttons_Interact.ButtonsLink" duration-ms="4901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Buttons -->
+        <test-method signature="AllignmentButtons()[pri:0, instance:testcases.Buttons_Interact@32eff876]" started-at="2024-02-12T19:01:54 IST" name="AllignmentButtons" finished-at="2024-02-12T19:01:55 IST" depends-on-methods="testcases.Buttons_Interact.Buttons" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllignmentButtons -->
+        <test-method signature="NumbersButtons()[pri:0, instance:testcases.Buttons_Interact@32eff876]" started-at="2024-02-12T19:01:55 IST" name="NumbersButtons" finished-at="2024-02-12T19:01:57 IST" depends-on-methods="testcases.Buttons_Interact.AllignmentButtons" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NumbersButtons -->
+      </class> <!-- testcases.Buttons_Interact -->
+    </test> <!-- Buttons Test -->
+    <test started-at="2024-02-12T19:01:58 IST" name="Checkbox Test" finished-at="2024-02-12T19:02:00 IST" duration-ms="1745">
+      <class name="testcases.Checkbox_Interact">
+        <test-method signature="checkboxlink()[pri:0, instance:testcases.Checkbox_Interact@77847718]" started-at="2024-02-12T19:01:58 IST" name="checkboxlink" finished-at="2024-02-12T19:01:59 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxlink -->
+        <test-method signature="checkboxes()[pri:0, instance:testcases.Checkbox_Interact@77847718]" started-at="2024-02-12T19:01:59 IST" name="checkboxes" finished-at="2024-02-12T19:02:00 IST" depends-on-methods="testcases.Checkbox_Interact.checkboxlink" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxes -->
+      </class> <!-- testcases.Checkbox_Interact -->
+    </test> <!-- Checkbox Test -->
+    <test started-at="2024-02-12T19:02:00 IST" name="DatePicker Test" finished-at="2024-02-12T19:02:03 IST" duration-ms="3298">
+      <class name="testcases.Datepicker_Interact">
+        <test-method signature="DatepickerLink()[pri:0, instance:testcases.Datepicker_Interact@4550bb58]" started-at="2024-02-12T19:02:00 IST" name="DatepickerLink" finished-at="2024-02-12T19:02:00 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DatepickerLink -->
+        <test-method signature="datapickerusingSendkeys()[pri:0, instance:testcases.Datepicker_Interact@4550bb58]" started-at="2024-02-12T19:02:00 IST" name="datapickerusingSendkeys" finished-at="2024-02-12T19:02:02 IST" depends-on-methods="testcases.Datepicker_Interact.DatepickerLink" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datapickerusingSendkeys -->
+        <test-method signature="datepickerusingcalander()[pri:0, instance:testcases.Datepicker_Interact@4550bb58]" started-at="2024-02-12T19:02:02 IST" name="datepickerusingcalander" finished-at="2024-02-12T19:02:03 IST" depends-on-methods="testcases.Datepicker_Interact.datapickerusingSendkeys" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datepickerusingcalander -->
+      </class> <!-- testcases.Datepicker_Interact -->
+    </test> <!-- DatePicker Test -->
+    <test started-at="2024-02-12T19:02:03 IST" name="DragandDrop Test" finished-at="2024-02-12T19:02:05 IST" duration-ms="2042">
+      <class name="testcases.Dropdown_Interact">
+        <test-method signature="DropdownLink()[pri:0, instance:testcases.Dropdown_Interact@59662a0b]" started-at="2024-02-12T19:02:03 IST" name="DropdownLink" finished-at="2024-02-12T19:02:04 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropdownLink -->
+        <test-method signature="DropDown()[pri:0, instance:testcases.Dropdown_Interact@59662a0b]" started-at="2024-02-12T19:02:04 IST" name="DropDown" finished-at="2024-02-12T19:02:05 IST" depends-on-methods="testcases.Dropdown_Interact.DropdownLink" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+      </class> <!-- testcases.Dropdown_Interact -->
+    </test> <!-- DragandDrop Test -->
+    <test started-at="2024-02-12T19:02:05 IST" name="EnableAndDisableElements Test" finished-at="2024-02-12T19:02:09 IST" duration-ms="3828">
+      <class name="testcases.EnableAndDisableElements_Interact">
+        <test-method signature="EnableAndDisableLink()[pri:0, instance:testcases.EnableAndDisableElements_Interact@1bd4fdd]" started-at="2024-02-12T19:02:05 IST" name="EnableAndDisableLink" finished-at="2024-02-12T19:02:06 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableAndDisableLink -->
+        <test-method signature="EnableAndDisable()[pri:0, instance:testcases.EnableAndDisableElements_Interact@1bd4fdd]" started-at="2024-02-12T19:02:06 IST" name="EnableAndDisable" finished-at="2024-02-12T19:02:09 IST" depends-on-methods="testcases.EnableAndDisableElements_Interact.EnableAndDisableLink" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableAndDisable -->
+      </class> <!-- testcases.EnableAndDisableElements_Interact -->
+    </test> <!-- EnableAndDisableElements Test -->
+    <test started-at="2024-02-12T19:02:09 IST" name="KeyAndMouse  Test" finished-at="2024-02-12T19:02:13 IST" duration-ms="3750">
+      <class name="testcases.KeyAndMousePress_Interact">
+        <test-method signature="KeyAndMousePressLink()[pri:0, instance:testcases.KeyAndMousePress_Interact@1283bb96]" started-at="2024-02-12T19:02:09 IST" name="KeyAndMousePressLink" finished-at="2024-02-12T19:02:10 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeyAndMousePressLink -->
+        <test-method signature="KeyAndMouseInteract()[pri:0, instance:testcases.KeyAndMousePress_Interact@1283bb96]" started-at="2024-02-12T19:02:10 IST" name="KeyAndMouseInteract" finished-at="2024-02-12T19:02:13 IST" depends-on-methods="testcases.KeyAndMousePress_Interact.KeyAndMousePressLink" duration-ms="2904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeyAndMouseInteract -->
+      </class> <!-- testcases.KeyAndMousePress_Interact -->
+    </test> <!-- KeyAndMouse  Test -->
+    <test started-at="2024-02-12T19:02:13 IST" name="Modal Test" finished-at="2024-02-12T19:02:18 IST" duration-ms="5214">
+      <class name="testcases.ModalOrAlert_Interact">
+        <test-method signature="ModalLink()[pri:0, instance:testcases.ModalOrAlert_Interact@351d00c0]" started-at="2024-02-12T19:02:13 IST" name="ModalLink" finished-at="2024-02-12T19:02:17 IST" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModalLink -->
+        <test-method signature="Modal()[pri:0, instance:testcases.ModalOrAlert_Interact@351d00c0]" started-at="2024-02-12T19:02:17 IST" name="Modal" finished-at="2024-02-12T19:02:18 IST" depends-on-methods="testcases.ModalOrAlert_Interact.ModalLink" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modal -->
+      </class> <!-- testcases.ModalOrAlert_Interact -->
+    </test> <!-- Modal Test -->
+    <test started-at="2024-02-12T19:02:18 IST" name="Pagescroll  Test" finished-at="2024-02-12T19:02:20 IST" duration-ms="1314">
+      <class name="testcases.PageScroll_Interact">
+        <test-method signature="PagescrollLink()[pri:0, instance:testcases.PageScroll_Interact@3023df74]" started-at="2024-02-12T19:02:18 IST" name="PagescrollLink" finished-at="2024-02-12T19:02:19 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PagescrollLink -->
+        <test-method signature="PageScroll()[pri:0, instance:testcases.PageScroll_Interact@3023df74]" started-at="2024-02-12T19:02:19 IST" name="PageScroll" finished-at="2024-02-12T19:02:20 IST" depends-on-methods="testcases.PageScroll_Interact.PagescrollLink" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageScroll -->
+      </class> <!-- testcases.PageScroll_Interact -->
+    </test> <!-- Pagescroll  Test -->
+    <test started-at="2024-02-12T19:02:20 IST" name="RadioButton Test" finished-at="2024-02-12T19:02:21 IST" duration-ms="1524">
+      <class name="testcases.RadioButton_Interact">
+        <test-method signature="RadioButtonLink()[pri:0, instance:testcases.RadioButton_Interact@2a4fb17b]" started-at="2024-02-12T19:02:20 IST" name="RadioButtonLink" finished-at="2024-02-12T19:02:20 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtonLink -->
+        <test-method signature="RadioButtons()[pri:0, instance:testcases.RadioButton_Interact@2a4fb17b]" started-at="2024-02-12T19:02:20 IST" name="RadioButtons" finished-at="2024-02-12T19:02:21 IST" depends-on-methods="testcases.RadioButton_Interact.RadioButtonLink" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtons -->
+      </class> <!-- testcases.RadioButton_Interact -->
+    </test> <!-- RadioButton Test -->
+    <test started-at="2024-02-12T19:02:21 IST" name="Windows Test" finished-at="2024-02-12T19:02:25 IST" duration-ms="3798">
+      <class name="testcases.Windows_interact">
+        <test-method signature="Windowslink()[pri:0, instance:testcases.Windows_interact@4c583ecf]" started-at="2024-02-12T19:02:21 IST" name="Windowslink" finished-at="2024-02-12T19:02:22 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Windowslink -->
+        <test-method signature="windows()[pri:0, instance:testcases.Windows_interact@4c583ecf]" started-at="2024-02-12T19:02:22 IST" name="windows" finished-at="2024-02-12T19:02:25 IST" depends-on-methods="testcases.Windows_interact.Windowslink" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windows -->
+      </class> <!-- testcases.Windows_interact -->
+    </test> <!-- Windows Test -->
+    <test started-at="2024-02-12T19:02:25 IST" name="WebForm Test" finished-at="2024-02-12T19:02:28 IST" duration-ms="2902">
+      <class name="testcases.Complete_WebForm_Interact">
+        <test-method signature="WebformLink()[pri:0, instance:testcases.Complete_WebForm_Interact@3270d194]" started-at="2024-02-12T19:02:25 IST" name="WebformLink" finished-at="2024-02-12T19:02:26 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebformLink -->
+        <test-method signature="Webform()[pri:0, instance:testcases.Complete_WebForm_Interact@3270d194]" started-at="2024-02-12T19:02:26 IST" name="Webform" finished-at="2024-02-12T19:02:28 IST" depends-on-methods="testcases.Complete_WebForm_Interact.WebformLink" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webform -->
+      </class> <!-- testcases.Complete_WebForm_Interact -->
+    </test> <!-- WebForm Test -->
+    <test started-at="2024-02-12T19:02:28 IST" name="Fileupload Test" finished-at="2024-02-12T19:02:53 IST" duration-ms="24964">
+      <class name="testcases.FileUpload_Interact">
+        <test-method is-config="true" signature="LanuchBrowser()[pri:0, instance:testcases.FileUpload_Interact@71d44a3]" started-at="2024-02-12T19:00:43 IST" name="LanuchBrowser" finished-at="2024-02-12T19:01:44 IST" duration-ms="60959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanuchBrowser -->
+        <test-method signature="fileuploadLink()[pri:0, instance:testcases.FileUpload_Interact@71d44a3]" started-at="2024-02-12T19:02:28 IST" name="fileuploadLink" finished-at="2024-02-12T19:02:29 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileuploadLink -->
+        <test-method signature="Fileupload()[pri:0, instance:testcases.FileUpload_Interact@71d44a3]" started-at="2024-02-12T19:02:29 IST" name="Fileupload" finished-at="2024-02-12T19:02:53 IST" depends-on-methods="testcases.FileUpload_Interact.fileuploadLink" duration-ms="24398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fileupload -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testcases.FileUpload_Interact@71d44a3]" started-at="2024-02-12T19:02:53 IST" name="Teardown" finished-at="2024-02-12T19:02:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testcases.FileUpload_Interact -->
+    </test> <!-- Fileupload Test -->
+  </suite> <!-- Formy Test Suite -->
+</testng-results>

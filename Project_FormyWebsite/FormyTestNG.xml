@@ -1,0 +1,79 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite  name="Formy Test Suite">
+	
+	<test name ="Buttons Test">
+		<classes>
+			<class name ="testcases.Buttons_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="Checkbox Test">
+		<classes>
+			<class name ="testcases.Checkbox_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="DatePicker Test">
+		<classes>
+			<class name ="testcases.Datepicker_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="DragandDrop Test">
+		<classes>
+			<class name ="testcases.Dropdown_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="EnableAndDisableElements Test">
+		<classes>
+			<class name ="testcases.EnableAndDisableElements_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="KeyAndMouse  Test">
+		<classes>
+			<class name ="testcases.KeyAndMousePress_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="Modal Test">
+		<classes>
+			<class name ="testcases.ModalOrAlert_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="Pagescroll  Test">
+		<classes>
+			<class name ="testcases.PageScroll_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="RadioButton Test">
+		<classes>
+			<class name ="testcases.RadioButton_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="Windows Test">
+		<classes>
+			<class name ="testcases.Windows_interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="WebForm Test">
+		<classes>
+			<class name ="testcases.Complete_WebForm_Interact"></class>
+		</classes>
+	</test>
+	
+	<test name ="Fileupload Test">
+		<classes>
+			<class name ="testcases.FileUpload_Interact"></class>
+		</classes>
+	</test>
+	
+	
+	
+</suite>
+	
